@@ -158,7 +158,7 @@ const MapScene = () => {
         ref={webViewRef}
         onMessage={handleOnMessage}
         source={{
-          uri: 'https://f786825aa975.ngrok.io',
+          uri: 'https://traditional-market.web.app',
         }}
       />
       {drawerState.isVisible && (
